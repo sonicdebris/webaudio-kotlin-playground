@@ -6,3 +6,5 @@ Run `./gradlew browserRun` to test.
 For deployment, run `./gradlew build` and look into `build/distribution`.
 
 `docs` contains the compiled web app, for hosting on Github Pages.
+
+Live app: https://sonicdebris.github.io/webaudio-kotlin-playground/
