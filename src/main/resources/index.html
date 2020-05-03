@@ -3,30 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Web audio with Kotlin/JS</title>
+    <script src="webaudio-kotlin-playground.js"></script>
 </head>
 <body>
     <button id="startButton" type="button">Start</button>
     <button id="stopButton" type="button">Stop</button>
     <br>
-    <label>Drums vol</label>
+    <label for="drumsVol">Drums vol</label>
     <input id="drumsVol" type="range" class="slider"
            min="0" max="1" step="0.05" value="0.3">
     <br>
-    <label>Bass vol</label>
+    <label for="bassVol">Bass vol</label>
     <input id="bassVol" type="range" class="slider"
            min="0" max="1" step="0.05" value="0.3">
     <br>
-    <label>Guitar vol</label>
+    <label for="guitarVol">Guitar vol</label>
     <input id="guitarVol" type="range" class="slider"
            min="0" max="1" step="0.05" value="0.3">
     <br>
-    <label>Keys vol</label>
+    <label for="keysVol">Keys vol</label>
     <input id="keysVol" type="range" class="slider"
            min="0" max="1" step="0.05" value="0.3">
     <br>
     <br>
     <a href="https://github.com/sonicdebris/webaudio-kotlin-playground">Code</a>
-
-    <script src="webaudio-kotlin-playground.js"></script>
 </body>
 </html>
